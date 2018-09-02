@@ -1,3 +1,4 @@
+#Written by Andysnake96
 #serialize races info in json by json lib & python dict into jsonGare.txt
 #dict <--->json			-> = json.dump(dict,filePointer)
 #				<- = json.loads(jsonStr)-> list of dict....
@@ -43,8 +44,12 @@ if __name__=="__main__":
 
 	addRace("2018-08-11-18:30","Gara podistica tra le Cascate Rio Verde",10.2,4,"Borrello",110,"Gara Podistica Cascate Rio Verde","piano sulle salite!","2018-08-11-10:00","","http://www.cascatedelverde.it/cascatedelverde/images/stories/Immagini_Sito_Cascate/RioVerde.jpg")
 
-	addRace("2018-09-30-09:30","quarta ed. cardio race ",16.092,5,"Roma",300,"cardio race ed.4 2018","corri per la salute","2018-09-19-00:00","http://www.cardiorace.it/","https://www.cardiorace.it/wp-content/uploads/2018/04/logo-cuore-2-600x226.jpg")
+	addRace("2018-09-13-10:30","Missione corsa",10.0,5,"GROTTAFERRATA (RM)",100,"Mission Run 2018","corri per la salute","2018-09-5-00:00","http://www.missionrun.it/","https://s3-eu-west-1.amazonaws.com/ecs-gruppi/00000000/00010000/00012100/00012162/images/logo.jpg")
 
+	addRace("2018-09-14-10:00","Keep On Running",13.0,6,"PASSO CORESE (RI)",300,"Corricures","corri per la salute","2018-09-7-00:00","http://www.corricures.it/","http://admin.101sport.net/upload/www.corricures.it/5caeadb5-039f.jpg")
+
+	
+	addRace("2018-11-14-9:30","Gara podistica a Terracina",13.0,7,"TERRACINA (LT)",300,"Corri a terracina","corsa a terracina","2018-09-30-00:00","http://www.uisp.it/latina2/","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3f9cm9-P-rzxgMAZfzaM6OVP1SugrAqEeGF_Zf7GdOkzWBg1A")
 
 
 	serialize()
